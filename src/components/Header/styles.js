@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  height: 12.8rem;
+  height: 10.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,13 +10,13 @@ export const Container = styled.header`
   position: fixed;
   top: 0;
   align-self: center;
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.white};
   padding: 0 7rem;
   z-index: 10;
 
   @media (max-width: 768px) {
     height: 8rem;
-    padding: 0 3rem;
+    // padding: 0 3rem;
   };
 `;
 
