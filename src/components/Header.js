@@ -36,7 +36,7 @@ const optionsHeader = [
   },
 ];
 
-const Header = () => {
+const HeaderOld = () => {
   const headerRef = useRef(null);
 
   useEffect(() => {
@@ -129,4 +129,4 @@ const Header = () => {
     </Box>
   );
 };
-export default Header;
+export default HeaderOld;
